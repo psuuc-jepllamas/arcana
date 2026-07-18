@@ -1,6 +1,5 @@
 {
   "name": "take2_ng_ui1",
-  "homepage": "https://psuuc-jepllamas.github.io/arcana/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -8,13 +7,10 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "oxlint",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "preview": "vite preview"
   },
   "dependencies": {
     "framer-motion": "^12.42.2",
-    "gh-pages": "^6.3.0",
     "lucide-react": "^1.25.0",
     "react": "^19.2.7",
     "react-dom": "^19.2.7",
